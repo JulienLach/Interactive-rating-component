@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // FONTION DES BOUTONS
+    // FONCTION DES BOUTONS
 
     const selectedNumberSpan = document.getElementById('selectedNumber');
     const btn1 = document.getElementById('btn-1');
