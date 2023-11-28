@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    console.log('DOM Loaded');
 
     // FONCTION DES BOUTONS
 
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     btn1.addEventListener('click', function () {
         selectedNumber = 1;
         updateSelectedNumber();
+        console.log('Button 1 clicked');
     });
 
 
