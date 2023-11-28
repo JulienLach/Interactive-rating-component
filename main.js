@@ -19,9 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
     btn1.addEventListener('click', function () {
         selectedNumber = 1;
         updateSelectedNumber();
-        console.log('Button 1 clicked');
+        localStorage.setItem("selectedNumber", selectedNumber);
     });
-
 
 
     // FONCTION SUBMIT QUI ENVOIE VERS THANK.HTML
